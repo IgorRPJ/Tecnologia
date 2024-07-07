@@ -34,9 +34,13 @@ body{
 /*-----------------------*/
 /*navegacao*/
 .navegacao{
-    text-align: center;
-    padding: 20px;
+    padding: 20px 0px;
     background-color: #06345d;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
 }
 
 .navegacao a{
@@ -114,7 +118,6 @@ body{
     background-color: #05192a;
     font-size: 1.1em;
     padding: 60px;
-    overflow: auto;
 }
 
 .container-servicos h1{
@@ -181,5 +184,10 @@ footer{
     padding: 80px;
     background-color: #02111f;
     color: gray;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
 }
 /*-----------------------*/
